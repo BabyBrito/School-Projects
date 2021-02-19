@@ -9,3 +9,5 @@ Here we create Point3D class used to represent the center point in a 3D object t
 point origin to the center of the 3D object.
 
 Polynomial: This project showcases my use of the Linked List ADT where we create a term class in a polynomial such as 3x^2 where we have a coefficient 3 and the exponent if the variable 2. We then create a polynomial class that uses a linked list to add an array of polynomials where we can then add a term to the polynomial, add or multiply all the polynomials, and finally collect like terms.
+
+gactivity: this is a c program I did in linux which includes a Makefile to make the program on the command prompt. This program is a simple getopt program where we set flags a, b, c, and d in the getopt function. Both c and d require an argument, c being a string and d being a integer. We then print out the all the options entered by the user, the arguments in them, and any peramters after checking the flag that require a minimum of two argumetns, but no more then 3.
